@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
-  <control namespace="CV" constructor="ConnectionViewerComponent" version="0.0.1" display-name-key="TS_DataSetGrid_Display_Key" description-key="TSDataSetGrid_Desc_Key" control-type="standard">
+  <control namespace="CV" constructor="ConnectionViewerComponent" version="0.0.2" display-name-key="TS_DataSetGrid_Display_Key" description-key="TSDataSetGrid_Desc_Key" control-type="standard">
     <!-- dataset node represents a set of entity records on CDS; allow more than one datasets -->
     <data-set name="dataSetGrid" display-name-key="DataSetGridProperty_Display_Key">
       <!-- 'property-set' node represents a unique, configurable property that each record in the dataset must provide. -->
@@ -12,6 +12,7 @@
       <code path="index.ts" order="1" />
       <css path="css/ConnectionViewer.css" order="2" />
       <resx path="strings/ConnectionViewer.1033.resx" version="1.0.0" />
+      <resx path="strings/ConnectionViewer.1041.resx" version="1.0.0" />
     </resources>
     <!-- UNCOMMENT TO ENABLE THE SPECIFIED API
     <feature-usage>

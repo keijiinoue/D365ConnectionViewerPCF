@@ -1,5 +1,6 @@
 import {IInputs, IOutputs} from "./generated/ManifestTypes";
 import DataSetInterfaces = ComponentFramework.PropertyHelper.DataSetApi;
+import { ConnectionViewer } from "./connectionViewer";
 type DataSet = ComponentFramework.PropertyTypes.DataSet;
 
 // Define const here
@@ -197,15 +198,22 @@ export class ConnectionViewerComponent implements ComponentFramework.StandardCon
 
 		if (rowRecordId) {
 			let entityReference = this.contextObj.parameters.dataSetGrid.records[rowRecordId].getNamedReference();
+
+			console.log("entityReference")
+			console.dir(entityReference)
+
 			let entityFormOptions = {
 				entityName: entityReference.name,
-				entityId: entityReference.id.guid,
+				// entityId: entityReference.id.guid,
+				entityId: (entityReference.id.guid) ? entityReference.id.guid: entityReference.id.toString(), // keiji
 			}
-			this.contextObj.navigation.openForm(entityFormOptions);
+
+			console.log("entityFormOptions", entityFormOptions)
+			// this.contextObj.navigation.openForm(entityFormOptions);
 
 			// TODO
-			// let connectionViewer = new ConnectionViewer();
-			// connectionViewer.init(this.mainContainer);
+			let connectionViewer = new ConnectionViewer();
+			connectionViewer.init(this.mainContainer, entityFormOptions.entityName, entityFormOptions.entityId);
 		}
 	}
 

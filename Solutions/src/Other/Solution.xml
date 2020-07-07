@@ -1,26 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.1.0.643" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- <ImportExportXml version="9.1.0.643" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> -->
+<ImportExportXml version="9.1.0.643" SolutionPackageVersion="9.1" languagecode="1041" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <!-- Unique Name of Cds Solution-->
-    <UniqueName>Solutions</UniqueName>
+    <UniqueName>Keiji D365ConnectionVIewerPCF</UniqueName>
     <LocalizedNames>
       <!-- Localized Solution Name in language code -->
-      <LocalizedName description="Solutions" languagecode="1033" />
+      <LocalizedName description="Keiji D365ConnectionVIewerPCF" languagecode="1033" />
+      <LocalizedName description="Keiji D365ConnectionVIewerPCF" languagecode="1041" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.0</Version>
+    <Version>0.0.1</Version>
     <!-- Solution Package Type: Unmanaged(0)/Managed(1)/Both(2)-->
-    <Managed>2</Managed>
+    <Managed>1</Managed>
     <Publisher>
       <!-- Unique Publisher Name of Cds Solution -->
       <UniqueName>Keiji</UniqueName>
       <LocalizedNames>
         <!-- Localized Cds Publisher Name in language code-->
         <LocalizedName description="Keiji" languagecode="1033" />
+        <LocalizedName description="Keiji" languagecode="1041" />
       </LocalizedNames>
       <Descriptions>
         <!-- Description of Cds Publisher in language code -->
         <Description description="Keiji" languagecode="1033" />
+        <Description description="Keiji" languagecode="1041" />
       </Descriptions>
       <EMailAddress xsi:nil="true"></EMailAddress>
       <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>

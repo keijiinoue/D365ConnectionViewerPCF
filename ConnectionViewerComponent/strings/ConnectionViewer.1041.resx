@@ -118,19 +118,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="PCF_DataSetControl_LoadMore_ButtonLabel" xml:space="preserve">
-    <value>Load More</value>
+    <value>さらに読み込む</value>
     <comment>Label for TSTableGrid's Load More Paging Button</comment>
   </data>
   <data name="PCF_DataSetControl_No_Record_Found" xml:space="preserve">
-    <value>No records found.</value>
+    <value>レコードが見つかりませんでした。</value>
     <comment>No records found if no records</comment>
   </data>
   <data name="TS_DataSetGrid_Display_Key" xml:space="preserve">
-    <value>Connection Viewer component</value>
+    <value>つながりビューワー コンポーネント</value>
     <comment>Display text for DatasetGridControl</comment>
   </data>
   <data name="TS_DataSetGrid_Desc_Key" xml:space="preserve">
-    <value>Connection Viewer component</value>
+    <value>つながりビューワー コンポーネント</value>
     <comment>Display text for DatasetGridControl description</comment>
   </data>
   <data name="DataSetGridProperty_Display_Key" xml:space="preserve">

@@ -6,8 +6,8 @@ export class ConnectionViewer {
 
     }
 
-    public init(mainContainer: HTMLDivElement) {
-        console.log("init() in ConnectionViewer")
+    public init(mainContainer: HTMLDivElement, entityName: string, entityId: string): void {
+        console.log("2 init() in ConnectionViewer")
 
         this.mainContainer = mainContainer;
         while (mainContainer.firstChild) {
@@ -15,7 +15,7 @@ export class ConnectionViewer {
         }
 
         let div = document.createElement("div");
-        div.innerText = "ConnectionViewer の表示です。";
+        div.innerText = `ConnectionViewer の表示です。 entityName = ${entityName}, entityId = ${entityId}`;
         this.mainContainer.appendChild(div);
     }
 }

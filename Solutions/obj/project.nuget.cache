@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "RPMLEuGD2xXC1ADTrhkyRqdmamzV/ee+wuW3FMRkfetkpDhinAL0PNmS4eHz9wCPXQ6+47yaIMKAR6rSm7Z0HQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\keiji\\Documents\\GitHub\\D365ConnectionViewerPCF\\Solutions\\Solutions.cdsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\keiji\\.nuget\\packages\\microsoft.powerapps.msbuild.pcf\\1.3.3\\microsoft.powerapps.msbuild.pcf.1.3.3.nupkg.sha512",
+    "C:\\Users\\keiji\\.nuget\\packages\\microsoft.powerapps.msbuild.solution\\1.3.3\\microsoft.powerapps.msbuild.solution.1.3.3.nupkg.sha512"
+  ],
+  "logs": []
+}
